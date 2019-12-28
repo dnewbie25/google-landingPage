@@ -10,5 +10,13 @@
     -webkit-border-radius:50px;
     border-radius:15px;
     text-indent: 30px;
-
 }
+
+.buttons{
+
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-left: 510px;
+    
+}
+
