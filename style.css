@@ -1,0 +1,14 @@
+#logo{
+    padding-top: 232px;
+    padding-left: 504px;
+}
+
+#searchbar{
+    margin-left: 504px;
+    width: 260px;
+    -moz-appearance:50px;
+    -webkit-border-radius:50px;
+    border-radius:15px;
+    text-indent: 30px;
+
+}
