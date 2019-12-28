@@ -11,6 +11,8 @@
     -webkit-border-radius:50px;
     border-radius:15px;
     text-indent: 30px;
+    border-width: 1px;
+    border-color: rgb(228, 223, 223);
     
 }
 
