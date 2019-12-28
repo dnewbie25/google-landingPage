@@ -4,12 +4,14 @@
 }
 
 #searchbar{
-    margin-left: 504px;
-    width: 260px;
+    margin-left:400px;
+    width: 460px;
+    height: 24px;
     -moz-appearance:50px;
     -webkit-border-radius:50px;
     border-radius:15px;
     text-indent: 30px;
+    
 }
 
 .buttons{
