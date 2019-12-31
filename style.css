@@ -1,3 +1,7 @@
+/*Main page, logo and searchbar ------------
+--------------
+----------*/
+
 #logo{
     padding-top: 232px;
     padding-left: 504px;
@@ -69,7 +73,9 @@
     border-width: 0.5px;
 }
 
-
+/*Headers ---
+------
+--------*/
 
 
 .headers{
@@ -150,6 +156,78 @@ a:hover{
 #tools:hover{
     opacity: 1;
     cursor: pointer;
+}
+
+
+
+/*Footer---------
+-------------
+---------------*/
+
+.footers{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: gray;
+    background-color:rgb(240,240,240) ;
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    border-top: solid;
+    border-top-color:gray;
+    border-top-width: 1px;
+}
+
+#country{
+    position: absolute;
+    bottom: 35px;
+    width: 96%;
+    height: 30px;
+    color: gray;
+    background-color:rgb(240,240,240);
+    border-top: solid;
+    border-top-color:gray;
+    border-top-width: 1px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#advertising{
+    position: relative;
+    padding-left: 50px;;
+
+}
+
+#business{
+    position: relative;
+    padding-left: 15px;;
+}
+
+#about2{
+    position: relative;
+    padding-left: 15px;;
+}
+
+#search_works{
+    position: relative;
+    padding-left: 15px;;
+}
+
+#settings{
+    position: absolute;
+    right: 50px;
+}
+
+#privacy{
+    position: absolute;
+    right: 150px;
+}
+
+#terms{
+    position: absolute;
+    right: 250px;
 }
 
 
