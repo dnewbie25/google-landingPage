@@ -13,7 +13,16 @@
     text-indent: 30px;
     border-width: 1px;
     border-color: rgb(228, 223, 223);
+    border-style: solid;
+    background-color: white;
     
+    
+}
+
+#searchbar:hover{
+    
+    box-shadow: 2px 2px 2px 0.5px #c5c7c9;
+        
 }
 
 .buttons{
@@ -21,18 +30,126 @@
         border-radius: 5px;
         padding-top: 10px;
         padding-left: 510px;
+        
+               
     
 }
+
+#searchbutton{
+    height: 30px;
+    color: gray;
+    background-color: rgb(240,240,240);
+    border-color: rgb(240,240,240);
+    border: none;
+    border-radius: 3px;
+    
+}
+#searchbutton:hover{
+    
+    cursor: pointer;
+    border:solid;
+    border-color: #cacccf;
+    border-width: 0.5px;
+}
+
+
+#feel_lucky{
+    margin-left: 10px;
+    height: 30px;
+    color: gray;
+    background-color: rgb(240,240,240);
+    border-color: rgb(240,240,240);
+    border: none;
+    border-radius: 3px;
+}
+#feel_lucky:hover{
+    cursor: pointer;
+    border:solid;
+    border-color: #cacccf;
+    border-width: 0.5px;
+}
+
+
+
 
 .headers{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    color:#bfbdbd;
+    
     display: inline-flex;
+    
+}
+
+#about{
     position: absolute;
-    right: 0px;
+    left: 50px;
+    top: 0px;
+    
+}
+
+#store{
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    
+}
+
+#gmail{
+    position: absolute;
     top:0px;
+    right: 350px;
+    
+}
+
+#images{
+    position: absolute;
+    top:0px;
+    right: 250px;
+    
+}
+
+#tools{
+    position: absolute;
+    top:10px;
+    right: 150px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+    
+}
+
+#sign_in{
+    position: absolute;
+    top:10px;
+    right: 50px;
+    background-color:#2e73f2;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: #2e73f2;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+#sign_in:hover{
+   cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:#a7a3a3;
+}
+
+a:hover{
+    color: grey;
+    cursor: pointer;
+}
+
+#tools:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 
